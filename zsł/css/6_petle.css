@@ -1,0 +1,24 @@
+body{
+  background-color: black;
+  color: white;
+}
+
+table, tr, td{
+  border: solid 1px black;
+  border-collapse: collapse;
+  padding: 10px;
+  text-align: center;
+  background-color: orange;
+  color: white;
+  margin: auto;
+}
+
+.przekatna1{
+  background-color: yellow;
+  color: red;
+}
+
+.przekatna2{
+  background-color: red;
+  color: yellow;
+}
