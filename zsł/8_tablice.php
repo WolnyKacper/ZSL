@@ -114,12 +114,13 @@ $student1 = array(
 
 function ShowStudent1($student1)
 {
-  foreach ($student1 as $key => $value)
-  {
-      foreach ($student1[$key] as $key => $value)
-      {
-          echo "$value ";
-      }
+  foreach ($student1 as $value)
+{
+    foreach ($value as $value1)
+    {
+       
+echo "$x";
+    }
 } 
 } 
 
@@ -134,7 +135,10 @@ function ShowArraySort($tab)
 {
   foreach ($tab as $value)
   {
-    echo "$value ";
+    foreach ($value as $value1)
+{
+echo "$value ";
+} 
   }
 }
 
