@@ -112,6 +112,18 @@ $student1 = array(
   array("Tomasz", "Scholz" array("Niemcy");
 );
 
+function ShowStudent1($student)
+{
+  foreach ($student1 as $key => $value)
+  {
+      foreach ($student[$key] as $key => $value)
+      {
+          echo "$value ";
+      }
+} 
+} 
+
+echo ShowStudent1($student1),"<hr>";
 
 ###############################################################################
 //sortowanie
