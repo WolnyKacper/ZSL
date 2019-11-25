@@ -112,11 +112,11 @@ $student1 = array(
   array("Tomasz", "Scholz" array("Niemcy");
 );
 
-function ShowStudent1($student)
+function ShowStudent1($student1)
 {
   foreach ($student1 as $key => $value)
   {
-      foreach ($student[$key] as $key => $value)
+      foreach ($student1[$key] as $key => $value)
       {
           echo "$value ";
       }
