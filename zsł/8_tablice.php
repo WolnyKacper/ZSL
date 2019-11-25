@@ -36,7 +36,7 @@ $data = array(
   "name" => "Janusz",
   "surname" => "Nowak",
   "age" => 20,
-  "coutry" => "Polska",
+  "country" => "Polska",
 );
 
 //echo $data["age"],'<br>';
@@ -118,8 +118,10 @@ function ShowStudent1($student1)
 {
     foreach ($value as $value1)
     {
-       
+      foreach ($value1 as $x)
+{
 echo "$x";
+} 
     }
 } 
 } 
