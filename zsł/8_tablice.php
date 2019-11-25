@@ -107,6 +107,12 @@ echo ShowArray3($student),"<hr>";
     napisz do tych tablic funkcje wyswietlajace dane
 */
 
+$student1 = array(
+  array("Anna", "Nowak" array("Polska")),
+  array("Tomasz", "Scholz" array("Niemcy");
+);
+
+
 ###############################################################################
 //sortowanie
 
