@@ -1,0 +1,18 @@
+1) Utworzyć stronę index.php z imieniem nazwiskiem w tytule strony.
+2) Na tej stronie znajduje się formularz wysyłający swoje dane na stronę dane.php.
+Formularz składa się z listy rozwijanej z 5 miastami, pola na imię, wybór jednego z kolorów RGB i przycisku.
+
+3) Strona dane.php przejmując informacje zapiusuje je do tablicy, a następnie wyświetla dane w tabelce z
+kolumnami o nazwie KEY i VALUE.
+
+4) Na tej samej stronie tworzymy formularz z loginem, hasłem.
+Konto: jan Hasło: tajne@ jest dla admin.php
+Konto: Janusz Hasło: tajne jest dla user.php
+
+5) Bez względu gdzie się zalogujemy widzimy globalnie KOLOR i MIASTO z index.php
+
+6) Tworzymy ciastko o nazwie name1 o dowolnej treści z czasem na 2 dni.
+
+7) Istnieje jeszcze plik sprawdz.php sprawdzający dane wprowadzone w formularzu ze strony dane.php
+
+8 ) Informacje wyświetlone na kontach mają wyczyszczenie ze znaków białych, pierwsza litera duża, reszta małe.
