@@ -1,0 +1,12 @@
+body{
+  background-color: lightgreen;
+}
+table,th,td{
+  border: 2px black solid;
+  border-collapse: collapse;
+  text-align: center;
+  padding: 5px;
+}
+#tytul{
+  background-color: green;
+}
